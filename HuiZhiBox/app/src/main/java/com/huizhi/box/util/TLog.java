@@ -5,7 +5,6 @@ import android.util.Log;
 public class TLog {
 	public static final String LOG_TAG = "HuiZhiBox";
 	public static boolean DEBUG = true;
-	private static String merid = "";
 
 	public TLog() {
 	}
@@ -23,7 +22,6 @@ public class TLog {
 	public static final void log(String log) {
 		if (DEBUG)
 			Log.i(LOG_TAG, log);
-//        addLocalLog(log);
 	}
 
 	public static final void log(String tag, String log) {
@@ -41,11 +39,4 @@ public class TLog {
 			Log.w(LOG_TAG, log);
 	}
 
-//	private static void addLocalLog(String log){
-//		String merid = SharePreferenceUtils.getmerNum(UiUtils.getContext());
-//		log = Utility.getCurrentDate("yyyy-MM-dd HH:mm:ss") + ":" + log;
-//		String filename = Utility.formatDateTime(new Date(), "yyyy-MM-dd") + "-" + merid + ".txt";
-//		FileUtil.saveDateToFile(log, filename);
-//
-//    }
 }
