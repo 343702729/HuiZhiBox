@@ -11,6 +11,8 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.huizhi.box.R;
+
 public class DialogHelper {
     /**
      * 提问框的 Listener
@@ -151,7 +153,7 @@ public class DialogHelper {
                 .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        PakageUtil.startAppSettings(context);
+//                        PakageUtil.startAppSettings(context);
                     }
                 }).show();
     }
