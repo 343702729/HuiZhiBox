@@ -9,10 +9,8 @@ import com.huizhi.box.api.util.RxSubscriber;
 import com.huizhi.box.data.Constant;
 import com.huizhi.box.util.TLog;
 import com.trello.rxlifecycle.components.support.RxAppCompatActivity;
-
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
